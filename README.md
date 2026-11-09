@@ -29,7 +29,7 @@
 
 NextStream is a debrid-only streaming client for the big screen. It keeps the catalogue, Continue Watching, search and subtitles in one place, then hands playback to the platform's native player.
 
-Needs a debrid account. NextStream is a player, not a content provider.
+Create a NextStream account and connect a supported debrid service. NextStream does not host or provide media.
 
 ---
 
