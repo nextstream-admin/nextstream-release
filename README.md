@@ -1,19 +1,17 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/hero.svg" alt="NextStream — Press play." width="100%">
+</p>
 
-# NextStream
+<p align="center">
+  <a href="https://github.com/nextstream-admin/nextstream-release/releases/latest"><img src="https://img.shields.io/github/v/release/nextstream-admin/nextstream-release?label=latest&style=flat-square&color=111111" alt="Latest release"></a>
+  <a href="https://comingupnext.web.app"><img src="https://img.shields.io/badge/home-comingupnext.web.app-111111?style=flat-square" alt="Home page"></a>
+  <img src="https://img.shields.io/badge/platforms-macOS%20%C2%B7%20Windows%20%C2%B7%20Tizen%20%C2%B7%20webOS%20%C2%B7%20Android-111111?style=flat-square" alt="Platforms">
+</p>
 
-**Your library. Your screens. Press play.**
-
-[![Latest release](https://img.shields.io/github/v/release/nextstream-admin/nextstream-release?label=latest&style=flat-square&color=111111)](https://github.com/nextstream-admin/nextstream-release/releases/latest)
-[![Website](https://img.shields.io/badge/website-nextstream.pages.dev-111111?style=flat-square)](https://nextstream.pages.dev)
-[![Platforms](https://img.shields.io/badge/platforms-macOS%20%C2%B7%20Windows%20%C2%B7%20Tizen%20%C2%B7%20webOS%20%C2%B7%20Android-111111?style=flat-square)](#download)
-
-Official desktop, TV and Android installers for **NextStream** — a debrid-only
-streaming client built for the big screen.
-
-[**Download the latest release →**](https://github.com/nextstream-admin/nextstream-release/releases/latest)
-
-</div>
+<p align="center">
+  <strong>Your library. Your screens. Press play.</strong><br>
+  <sub>NextStream is a debrid-only streaming client built for the big screen.</sub>
+</p>
 
 ---
 
@@ -34,6 +32,26 @@ streaming client built for the big screen.
 
 ---
 
+## A quieter way to watch
+
+NextStream keeps the catalogue, Continue Watching, search, profiles and subtitles in
+one interface, then hands playback to the platform's native player. No second app, no
+browser tab in the middle.
+
+<p align="center">
+  <img src="./assets/app.webp" alt="NextStream's Lite catalogue on a TV" width="86%">
+</p>
+<p align="center"><sub>The Lite catalogue, running on a TV.</sub></p>
+
+| | |
+| :--- | :--- |
+| **Native playback** | libmpv on desktop, AVPlay on Tizen, the native webOS pipeline, ExoPlayer/Media3 on Android. |
+| **Subtitles that belong** | Styled ASS/SSA through libass, PGS/VobSub bitmap tracks, and plain text — chosen per title. |
+| **One library** | WatchSync carries your profiles, Continue Watching and My List across every screen. |
+| **Built to be quiet** | Calm type, one clear action, no clutter. |
+
+---
+
 ## Before you install
 
 > [!WARNING]
@@ -48,7 +66,7 @@ streaming client built for the big screen.
 | **Samsung Tizen** | `.wgt` package for a Tizen TV. Install through Tizen developer mode with the Samsung/Tizen tooling. The package version is the **shell** version; the app version is shown inside NextStream. |
 | **LG webOS** | `.ipk` package for a webOS TV. Install through LG Developer Mode with the webOS CLI. The package version is the **shell** version; the app version is shown inside NextStream. |
 | **Android TV** | Sideload the `.apk` on Android TV, Google TV or Fire TV. Enable **Install unknown apps** for your file manager / ADB first. This is a debug-signed build, not a Play Store release. |
-| **Browser** | No installer. Open **[nextstream.pages.dev](https://nextstream.pages.dev)** and choose **Watch in your browser**. WatchSync sign-in is required; there is no anonymous route. |
+| **Browser** | No installer. Open **[comingupnext.web.app](https://comingupnext.web.app)** and choose **Watch in your browser**. WatchSync sign-in is required; there is no anonymous route. |
 
 ---
 
@@ -69,32 +87,16 @@ sha256sum -c SHA256SUMS.txt
 
 ---
 
-## What you are downloading
-
-NextStream keeps the catalogue, search, profiles, subtitles and playback UI in the
-app, and uses the platform's native video pipeline where one exists:
-
-| Surface | Player |
-| :--- | :--- |
-| macOS / Windows | native **libmpv** surface below the app window |
-| Samsung Tizen | **AVPlay** |
-| LG webOS | native **video pipeline** |
-| Android TV | **ExoPlayer / Media3** |
-| Browser | the same web app at [nextstream.pages.dev](https://nextstream.pages.dev) |
-
-Using NextStream requires a **WatchSync** account and a supported debrid service. NextStream does not host or provide media.
-
----
-
 ## Links
 
 | | |
 | :--- | :--- |
-| Website | [nextstream.pages.dev](https://nextstream.pages.dev) |
+| Home | [comingupnext.web.app](https://comingupnext.web.app) |
 | Latest release | [github.com/nextstream-admin/nextstream-release/releases/latest](https://github.com/nextstream-admin/nextstream-release/releases/latest) |
 | Issues / feedback | [Open an issue](https://github.com/nextstream-admin/nextstream-release/issues) |
 | Previous builds | [All releases](https://github.com/nextstream-admin/nextstream-release/releases) |
 
-<div align="center">
-<sub>NextStream · Press play.</sub>
-</div>
+Using NextStream requires a **WatchSync** account and a supported debrid service.
+NextStream does not host or provide media.
+
+<p align="center"><img src="./assets/icon.svg" width="28" height="28" alt=""> <sub>NextStream · Press play.</sub></p>
